@@ -1,0 +1,19 @@
+#heading {
+    font-family: 'Lobster', cursive;
+    font-size: 50;
+} 
+
+#Takesnap {
+    font-family: 'Permanent Marker', cursive;
+}
+
+canvas {
+    animation-name: nandomo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nandomo{
+    from {box-shadow: 3px 3px 38px red;}
+    to {box-shadow: 3px 3px 38px blue;}
+}
